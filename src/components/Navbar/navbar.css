@@ -1,0 +1,56 @@
+.nav-container .menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .nav-container .navbar-brand img {
+    height: 30px;
+  }
+  .nav-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-container .menu-toggle {
+    display: block;
+  }
+
+  .navbar-menu.responsive {
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    background-color: #333;
+    padding-top: 30px;
+    z-index: 1;
+  }
+
+  .navbar-menu a {
+    color: white;
+    text-align: left;
+  }
+
+  .navbar-menu.responsive {
+    display: flex;
+  }
+
+  .nav-container .search-form {
+    flex-grow: 1;
+    margin-left: 10px;
+    width: 50px;
+    height: 60px;
+  }
+
+  .navbar .search-form input {
+    width: 100%;
+  }
+
+  .navbar .coffee-button {
+    padding: 5px;
+  }
+}

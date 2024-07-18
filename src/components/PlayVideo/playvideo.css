@@ -1,0 +1,49 @@
+/* styles.css */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Điều chỉnh video nằm phía bên trái */
+    justify-content: center;
+    padding: 20px;
+    /* background-color: #1a1a1a; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 20px;
+  }
+  
+  .video-title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .video-player {
+    width: 100%;
+    max-width: 800px;
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0.5px solid hwb(0 71% 29%);
+  }
+  
+  .video-description {
+    color: #b0b0b0;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  #hls-video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+  }
+  
+  .container {
+    padding-top: 0; /* Loại bỏ khoảng cách thừa giữa video và phần trên */
+  }
+  

@@ -1,0 +1,25 @@
+.back-to-top {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    z-index: 1000;
+  }
+  
+  .back-to-top-icon {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    background-color: hsl(39, 100%, 50%);
+    font-family: cursive;
+  }
+  
+  .back-to-top-icon:hover {
+    color: hwb(0 0% 100%);
+    transform: scale(1.1);
+  }
+  
+  .back-to-top-icon:active {
+    color: #0677a4;
+  }
+  
